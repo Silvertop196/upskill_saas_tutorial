@@ -22,7 +22,7 @@
      font-family: 'Open Sans', sans-serif;
  }
  
- body, .navbar { 
+ .homepage_callout, .navbar { 
   // credit "A little thing by @_ighosh"  uiGradients
   background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
@@ -31,4 +31,11 @@
 
 .navbar {
  border: none;
+}
+
+.homepage_callout {
+ color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
